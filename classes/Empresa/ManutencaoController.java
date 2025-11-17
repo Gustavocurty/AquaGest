@@ -1,10 +1,10 @@
 package classes.Empresa;
 import java.util.List;
 
-import classes.Catalogos.CatalogoFuncionario;
-import classes.Catalogos.CatalogoOcorrencia;
-import classes.Catalogos.CatalogoPrioridadeTarefa;
-import classes.Catalogos.CatalogoTarefa;
+import classes.Empresa.Catalogos.CatalogoFuncionario;
+import classes.Empresa.Catalogos.CatalogoOcorrencia;
+import classes.Empresa.Catalogos.CatalogoPrioridadeTarefa;
+import classes.Empresa.Catalogos.CatalogoTarefa;
 import classes.Empresa.Funcionario.Funcionario;
 import classes.Empresa.Ocorrencia.Ocorrencia;
 import classes.Empresa.Prioridade.Prioridade;
