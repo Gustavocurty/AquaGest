@@ -14,36 +14,51 @@ export interface Problem {
 export const MOCK_PROBLEMS: Problem[] = [
   {
     id: "prob-1",
-    title: "Vazamento no banheiro",
-    description: "Vazamento constante na torneira do banheiro",
-    type: "Vazamento",
+    title: "Vazamento na Calçada",
+    description:
+      "Cano estourado no passeio público em frente à residência, com grande desperdício de água.",
+    type: "Vazamento Externo",
     status: "Pendente",
     date: "2025-01-16T10:00:00",
     userId: "user-1",
     userName: "Gustavo Curty",
-    image: "/water-leak.png",
-    location: "Banheiro"
+    image: "/vazamento.jpg",
+    location: "Rua das Acácias, 123 (Calçada)",
   },
   {
     id: "prob-2",
-    title: "Pressão baixa",
-    description: "Pressão da água muito baixa no chuveiro",
-    type: "Pressão",
+    title: "Falta de Abastecimento",
+    description:
+      "Residência sem receber água da rua há mais de 24 horas, mesmo sem aviso de corte.",
+    type: "Abastecimento",
     status: "Em Análise",
     date: "2025-01-15T14:30:00",
     userId: "user-1",
     userName: "Gustavo Curty",
-    location: "Chuveiro"
+    location: "Bairro Jardim Central",
   },
   {
     id: "prob-3",
-    title: "Água com cor estranha",
-    description: "Água saindo amarelada da torneira",
-    type: "Qualidade",
+    title: "Água Turva/Suja",
+    description:
+      "Água chegando no hidrômetro com coloração marrom e sedimentos.",
+    type: "Qualidade da Água",
     status: "Resolvido",
     date: "2025-01-10T09:00:00",
     userId: "user-1",
     userName: "Gustavo Curty",
-    location: "Cozinha"
-  }
+    location: "Entrada do Cavalete",
+  },
+  {
+    id: "prob-4",
+    title: "Bueiro Transbordando",
+    description:
+      "Esgoto retornando pela tampa do bueiro na via pública com forte odor.",
+    type: "Esgoto",
+    status: "Pendente",
+    date: "2025-01-17T08:15:00",
+    userId: "user-1",
+    userName: "Gustavo Curty",
+    location: "Rua Principal (Esquina)",
+  },
 ];
