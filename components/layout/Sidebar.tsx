@@ -71,7 +71,7 @@ export function Sidebar({ userRole = "user" }: SidebarProps) {
     },
     {
       name: "Recompensas",
-      href: "/",
+      href: "/dashboard/store",
       icon: (
         <svg
           className="w-5 h-5"
@@ -90,7 +90,7 @@ export function Sidebar({ userRole = "user" }: SidebarProps) {
     },
     {
       name: "Ranking",
-      href: "/ranking",
+      href: "/dashboard/ranking",
       icon: (
         <svg
           className="w-5 h-5"
