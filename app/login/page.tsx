@@ -126,11 +126,11 @@ export default function LoginPage() {
           </div>
         </form>
 
-        <div className="mt-8 p-4 bg-blue-50 rounded-lg">
+        {/* <div className="mt-8 p-4 bg-blue-50 rounded-lg">
           <p className="text-xs text-blue-900 font-medium mb-2">Credenciais de teste:</p>
           <p className="text-xs text-blue-700">Email: gustavo@gmail.com</p>
           <p className="text-xs text-blue-700">Senha: 123456</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
