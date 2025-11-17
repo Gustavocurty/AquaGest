@@ -161,6 +161,7 @@ export default function ConsumptionPage() {
                       year: "numeric",
                     })}
                   </p>
+                  <p className="text-sm text-gray-500 mt-1">Registro manual</p>
                   <p className="text-sm text-gray-500 mt-1">Média diária</p>
                 </div>
                 <p className="text-xl font-bold text-gray-900">
